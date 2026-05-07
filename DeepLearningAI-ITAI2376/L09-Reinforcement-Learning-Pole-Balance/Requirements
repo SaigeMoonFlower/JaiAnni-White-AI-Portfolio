@@ -1,0 +1,9 @@
+## Requirements / Dependencies
+To run this notebook, install the following dependencies:
+
+- Python 3.8+
+- gymnasium
+- numpy
+- matplotlib
+
+Install command:
