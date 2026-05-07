@@ -1,1 +1,7 @@
-
+### Core Libraries
+- Python 3.9+
+- PyTorch
+- torchvision
+- numpy
+- matplotlib
+- einops
