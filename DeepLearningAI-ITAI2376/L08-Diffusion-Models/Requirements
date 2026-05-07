@@ -1,7 +1,17 @@
-### Core Libraries
-- Python 3.9+
-- PyTorch
-- torchvision
-- numpy
-- matplotlib
-- einops
+## Requirements / Dependencies
+
+Install the following dependencies before running the notebook:
+
+### Python Libraries
+
+```bash
+torch
+torchvision
+numpy
+matplotlib
+einops
+pillow
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
