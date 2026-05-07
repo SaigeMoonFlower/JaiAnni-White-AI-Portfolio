@@ -7,3 +7,4 @@ To run this notebook, install the following dependencies:
 - matplotlib
 
 Install command:
+pip install gymnasium numpy matplotlib
