@@ -1,1 +1,28 @@
+## 4. Data / Data Access
 
+```markdown
+## Data / Data Access
+
+### Dataset Used
+
+This project uses the MNIST dataset of handwritten digits:
+
+- 60,000 training images
+- 10,000 test images
+- 10 classes (digits 0–9)
+- Grayscale images
+- Image size: 28×28 pixels
+
+---
+
+### Data Loading
+
+The dataset is automatically downloaded using torchvision:
+
+```python
+torchvision.datasets.MNIST(
+    root='./data',
+    train=True,
+    transform=transform,
+    download=True
+)
