@@ -1,1 +1,24 @@
+## Data Access
 
+This project does not use a traditional labeled dataset for training. Instead, it uses a pre-trained deep learning model (VGG16) that has already been trained on the ImageNet dataset.
+
+### Model Data Source
+- The VGG16 model was pre-trained on the ImageNet dataset
+- ImageNet contains over 14 million labeled images across 1000+ categories
+- The dataset includes everyday objects such as animals, vehicles, and household items
+
+### User Input Data
+- Images are provided by the user at runtime
+- Supported formats: JPG, PNG, JPEG
+- Images are uploaded through a Jupyter Notebook file upload widget
+
+### Preprocessing Requirements
+Before being passed into the model, each image is:
+- Resized to 224x224 pixels
+- Converted into a numerical array
+- Normalized using VGG16 preprocessing standards
+
+### Note
+No external dataset download is required to run this project. All required data is either:
+- Built into the pre-trained model (ImageNet weights)
+- Provided by the user during execution
