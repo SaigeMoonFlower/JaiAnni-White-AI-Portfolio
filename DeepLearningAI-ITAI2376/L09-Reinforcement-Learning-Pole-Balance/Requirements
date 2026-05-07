@@ -1,10 +1,19 @@
-## Requirements / Dependencies
-To run this notebook, install the following dependencies:
+# Requirements — ITAI 2376 Module 09 Lab
 
-- Python 3.8+
+## System Requirements
+- Python 3.8 or higher
+- Google Colab (recommended) or Jupyter Notebook
+
+---
+
+## Python Libraries
+The following libraries are required:
+
 - gymnasium
 - numpy
 - matplotlib
 
-Install command:
-pip install gymnasium numpy matplotlib
+---
+
+## Installation Instructions
+Run the following command before executing the notebook:
