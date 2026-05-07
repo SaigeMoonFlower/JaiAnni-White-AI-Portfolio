@@ -17,3 +17,18 @@ The following libraries are required:
 
 ## Installation Instructions
 Run the following command before executing the notebook:
+pip install gymnasium numpy matplotlib
+
+---
+
+## Hardware Requirements
+- No GPU required
+- CPU is sufficient
+- Runs within 1–2 minutes on standard hardware or Google Colab free tier
+
+---
+
+## Notes
+- No external datasets are required
+- All training data is generated in real time using the CartPole-v1 environment
+- Internet access is only needed to install dependencies
