@@ -1,0 +1,16 @@
+# Dataset Information
+
+## Text Dataset (NLP)
+- Custom dataset split into training and testing sets
+- Used for text classification tasks
+- Automatically processed in notebook using PyTorch Dataset class
+
+## Image Dataset (CIFAR-10)
+- Automatically downloaded using torchvision.datasets.CIFAR10
+- Contains 10 classes of images:
+  airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+
+## Access Notes
+- No manual download required
+- Datasets are automatically loaded when running the notebook
+- CIFAR-10 will be downloaded on first execution
