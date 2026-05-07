@@ -39,8 +39,3 @@ The model successfully predicts objects in images with high accuracy. For exampl
 
 ## Conclusion
 This lab shows how powerful pre-trained models like VGG16 are for image recognition tasks. Proper preprocessing is essential for accurate predictions.
-
-## Author
-Your Name  
-AI & Robotics Program  
-GitHub: https://github.com/YourUsername
