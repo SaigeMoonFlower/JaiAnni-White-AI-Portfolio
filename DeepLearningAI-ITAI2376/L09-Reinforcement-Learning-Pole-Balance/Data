@@ -1,0 +1,30 @@
+
+---
+
+## Data Access
+This project does not use external datasets.
+
+All data is generated dynamically during runtime from the CartPole-v1 environment provided by the Gymnasium library.
+
+No downloads or external files are required.
+
+---
+
+## Code Access / Structure
+The project is contained in a single Jupyter Notebook:
+
+- MD_Notebook_Jai'Anni_White_ITAI.ipynb
+
+It includes:
+- Environment setup
+- Random agent evaluation
+- Q-Learning implementation
+- Training loop (500 episodes)
+- Exploration experiment
+- Visualization of results
+- Written analysis and reflections
+
+To run:
+1. Open in Google Colab or Jupyter Notebook
+2. Run all cells from top to bottom
+3. Ensure dependencies are installed
