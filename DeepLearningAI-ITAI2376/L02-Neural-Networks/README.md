@@ -1,4 +1,4 @@
-# Lab 01 - VGG16 Image Classification
+# Lab 01 - Image Classification
 
 ## Overview
 This project demonstrates image classification using a pre-trained deep learning model (VGG16). The model is capable of identifying objects in images by using features learned from the ImageNet dataset.
